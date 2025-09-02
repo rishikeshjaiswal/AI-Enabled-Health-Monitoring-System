@@ -13,4 +13,4 @@ class TestSystemIntegration(unittest.TestCase):
             [65, 115, 97.5]
         ]
         results = [self.monitor.predict_health(d)[0] for d in data_stream]
-        self.assertEqual(len(results), 3)  # 3 predictions
+        self.assertEqual(len(results), 3)  # 3 predictions 
