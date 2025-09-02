@@ -20,4 +20,4 @@ os.makedirs("models", exist_ok=True)
 with open("models/health_model.pkl", "wb") as f:
     pickle.dump(model, f)
 
-print("✅ Dummy 3-feature model trained and saved at models/health_model.pkl")
+print("✅ Dummy 3-feature model trained and saved at models/health_model.pkl") 
