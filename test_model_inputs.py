@@ -8,4 +8,4 @@ class TestModelInputs(unittest.TestCase):
     def test_invalid_input(self):
         """Model should raise error for wrong input shape"""
         with self.assertRaises(Exception):
-            self.monitor.predict_health([999])  # invalid input
+            self.monitor.predict_health([999])  # invalid input 
